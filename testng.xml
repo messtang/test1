@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" verbose="1">
+<!--     <listeners>-->
+<!--         <listener class-name="com.webtest.core.WebTestListener"/>-->
+<!--     </listeners>-->
+<!--    设置和其他测试用例（刘俊江）-->
+    <test name="test1">
+        <classes>
+            <class name="com.webtest.ljjdemo.Demo"></class>
+<!--            <class name="com.webtest.ljjdemo.Site_setting"/>-->
+<!--            <class name="com.webtest.ljjdemo.Sign_in_setting"/>-->
+<!--            <class name="com.webtest.ljjdemo.Level_setting"/>-->
+<!--            <class name="com.webtest.ljjdemo.Growth_setting"/>-->
+<!--            <class name="com.webtest.ljjdemo.Friendship_link"/>-->
+        </classes>
+    </test>
+
+<!--    &lt;!&ndash; 个人信息和签到测试用例（张帅帅） &ndash;&gt;-->
+<!--    <test name="zss">-->
+<!--        <classes>-->
+<!--            <class name="com.webtest.zssdemo.InformationTest"></class>-->
+<!--            <class name="com.webtest.zssdemo.SignInTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="lpy">-->
+<!--        <classes>-->
+<!--           <class name="com.webtest.lpydemo.SmokeTest"/>-->
+<!--       </classes>-->
+
+<!--    </test>-->
+
+<!--    <test name="xl">-->
+<!--        <classes>-->
+<!--              <class name="com.webtest.xldemo.TestDemo"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
