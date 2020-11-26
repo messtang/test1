@@ -47,8 +47,7 @@ public class BaseTest {
 			System.setProperty("webdriver.gecko.driver", firefox_driver);
 			System.setProperty("webdriver.firefox.bin", firefox_path);
 			FirefoxOptions options = new FirefoxOptions();
-			options.addArguments("--headless");
-			driver = new FirefoxDriver(options);
+			driver = new FirefoxDriver();
 	
 			Log.info("Using Firefox");
 		}  else if (driverType.equalsIgnoreCase("chrome")) {
